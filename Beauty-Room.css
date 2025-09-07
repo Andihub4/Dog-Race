@@ -1,14 +1,27 @@
 .wineript{
   width: 45px;
-  border-color: deeppink;
+  border-color: aqua;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  border-width: 3px;
-  color: aqua;
+  border-width: 2px;
+  color: greenyellow;
   background-color: black;
   
+}
+.btn{
   
+
+  width: 70%;
+  margin-left: 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-width: 2px;
+  background-color: darkturquoise;
+  border-color: aqua;
+  font-family: serif;
   
 }
