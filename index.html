@@ -4,116 +4,134 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>
+   </title>
+<style>
   
- 
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: url("Dog1.jpg") no-repeat center center;
+  background-size: contain;
+  background-color: black;
+  font-family: Arial, serif;
   
-  <link rel="stylesheet" href="Beauty-Room.css">
-  <title></title>
-  <style>
+  font-family: Arial, sans-serif;
+  
+}
 
-  body {
-    margin: 0;
-    min-height: 100vh;
-
-    /* Background auto scales */
-    background: url("Dog0.jpg") no-repeat center center;
-    background-size: contain;
-    background-color: black;
-
-    font-family: Arial, sans-serif;
-  }
-
-
-</style>
-</head>
-
-<body>
-
-  <p>.</p>
-  <!-- Winners Score input -->
-      <input id="1st" class="wineript" type="number" placeholder="1st"  required maxlength="1" style     ="margin-left: 30px;"><input id="2nd" class      ="wineript"="wineript" type ="number" placeholder="2nd" required maxlength="1" style ="margin-left: 40px;">
-          <input id="3d" class="wineript" type="number" placeholder="3d" required maxlength="1" style="margin-left: 50px;">
- <!--
-   <p>.</p>
-    <p>.</p>
-         <p>.</p>
-           <p>.</p>
-              <p>.</p>
-                 <p>.</p>
-            <p>.</p>
-         <p>.</p>
-      <p>.</p>
-    <p>.</p>
-  <p>.</p>
-<p>.</p>
-      -->
- <br>
- <p>.</p>
- <!-- Winners Name input -->
-   <input class="wineript" type="text" placeholder="Name..." required  style="margin-left: 30px;">
- <input class="wineript"  type="text" placeholder="Name..." required style="margin-left: 40px;">
- <input class="wineript" type="text" placeholder="Name..." required style="margin-left: 50px;">
- <br>
-  <p>.</p>
- <p>.</p>
-  <!--
-   <p>.</p>
-    <p>.</p>
-         <p>.</p>
-           <p>.</p>
-              <p>.</p>
-                 <p>.</p>
-            <p>.</p>
-         <p>.</p>
-      <p>.</p>
-    <p>.</p>
-  <p>.</p>
-<p>.</p>
-      -->
-      <!-- Winners odd input -->
-  <input id="odd1" class="wineript" type="number" placeholder="Odd" required maxlength="5" style="margin-left: 30px;">
- <input id="odd2" class="wineript"  type="number" placeholder="Odd" required maxlength="5" style="margin-left: 40px;">
- <input id="odd3" class="wineript" type="number" placeholder="Odd" required maxlength="5" style="margin-left: 50px;">
-  <!--
-   <p>.</p>
-    <p>.</p>
-         <p>.</p>
-           <p>.</p>
-              <p>.</p>
-                 <p>.</p>
-            <p>.</p>
-         <p>.</p>
-      <p>.</p>
-    <p>.</p>
-  <p>.</p>
-<p>.</p>
-      -->
- <p>.</p><button class="btn" type="button" onclick="" >Ok</button>
- 
-<div style="back"> <canvas id="myChart" width="400" height="400"></canvas></div>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
-const ctx = document.getElementById('myChart').getContext('2d');
-const myChart = new Chart(ctx, {
-    type: 'line', // line, bar, scatter, etc.
-    data: {
-        labels: [0, 1, 2, 3, 4, 5],
-        datasets: [{
-            label: 'y = x^2',
-            data: [0, 1, 4, 9, 16, 25],
-            borderColor: 'blue',
-            fill: false
-        }]
-    },
-    options: {
-        scales: {
-            x: { title: { display: true, text: 'X-axis' } },
-            y: { title: { display: true, text: 'Y-axis' } }
-        }
+    .scroll-paragraph {
+      width: 100%;
+      margin-left: %;/* fixed width */
+      height: 588px;       /* fixed height */
+    
+      
+      border-radius: 5px;
+      backdrop-filter:blur(0px);
+      overflow-y: scroll;  /* makes text scrollable inside */
     }
-});
-</script>
+    
+      </style>
+    </head>
+  <script src="Prediction-Model.js">
+ </script>
+<link rel="stylesheet" href="Beauty-Room.css">
+ <link rel="stylesheet" href="res/bootstrap@5.2.0.min.css">
+    <link rel="stylesheet" href="res/chartist.min.css">
+      <body>
+  
+  
 
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active"><p onclick="#" style="color: ;">Home
+    </p></li>
+    <li class="breadcrumb-item active" aria-current="page" style="color:dodgerblue ;" onclick="window.location.href = 'winer-prediction.html'">Order</li>
+        <li class="breadcrumb-item active" aria-current="page" style="color:dodgerblue;" onclick="window.location.href = 'Time-prediction.html'">Travel
+        </li>
+            <li class="breadcrumb-item active" aria-current="page" style="color:dodgerblue;" onclick="window.location.href = 'User_Guide.html'">help</li>
+                <li class="breadcrumb-item active" aria-current="page" style="color:dodgerblue;" onclick="window.location.href = 'contact.html'">Contact us
+                </li>
+  </ol>
+</nav>
+<!-- Welcome Text 👇---->
+  <div class="scroll-paragraph">
+    <p id="">
+      <h2 style="background-color: black; color: aqua; width: 30%;padding-left: 10px; margin-left: 36%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;">Welcome</h2>
+  <p class="intro">
+    
+    Hell0 Welcome to "TimeTravel" . are you looking for better way that help you to win greyhound game easley ? You are lucky  person! . here you can predict and get exact time that a past time winners comes. You can win Dog race greyhound easly by using this site ,it is Free  just try and check . we believe that you would like us.additonally not only dog Formula 1 and Keno are coming soon. </p>
+    <br>
+    <br>
+    <br>
+    
+    <!-- How it work 👇-->
+ <h2 style="background-color: black; color: aqua; width:39%;padding-left: 3%; margin-left: 30%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;">How it work</h2>
+    <p class="intro">TimeTravel works based on race data which means it works by analyzing game data based on past events and using vulnerability of greyhound system, so it is like Hacking. we can't describe the vulnerability of system but we can explain functionality. 80% of  functionality is based on mathematical analytics. When users enter required input, it gives time that each winners come back . So you don't be asked complex input. Note: before using please check if your time is working correctly,Else may be you can get wrong result.</p>
+    
+    
+    
+    
+
+    
+    
+    
+    
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra sem et nulla suscipit, 
+    nec faucibus urna dictum. Sed euismod libero ut purus gravida, at pharetra est placerat. Aliquam erat volutpat. 
+    Mauris non massa non elit tincidunt luctus. Duis eget lacus vel ligula fermentum volutpat. 
+    Vestibulum non nisl libero. Proin faucibus, nisl eu tincidunt malesuada, ligula lorem luctus purus, 
+    vitae tincidunt neque purus et sapien. Integer feugiat ligula a turpis cursus, vel sollicitudin elit fringilla. 
+    Cras varius lorem vel tortor interdum, eget tempus elit posuere. Pellentesque habitant morbi tristique 
+    senectus et netus et malesuada fames ac turpis egestas. Curabitur mattis est ut justo mattis, eget cursus 
+    justo malesuada. Donec sagittis, mi non laoreet hendrerit, ex justo porttitor libero, in luctus sapien lectus 
+    in lorem. 
+    
+    
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra sem et nulla suscipit, nec faucibus urna dictum. Sed euismod libero ut purus gravida, at pharetra est placerat. Aliquam erat volutpat. Mauris non massa non elit tincidunt luctus. Duis eget lacus vel ligula fermentum volutpat. Vestibulum non nisl libero. Proin faucibus, nisl eu tincidunt malesuada, ligula lorem luctus purus, vitae tincidunt neque purus et sapien. Integer feugiat ligula a turpis cursus, vel sollicitudin elit fringilla. Cras varius lorem vel tortor interdum, eget 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra sem et nulla suscipit, 
+    nec faucibus urna dictum. Sed euismod libero ut purus gravida, at pharetra est placerat. Aliquam erat volutpat. 
+    Mauris non massa non elit tincidunt luctus. Duis eget lacus vel ligula fermentum volutpat. 
+    Vestibulum non nisl libero. Proin faucibus, nisl eu tincidunt malesuada, ligula lorem luctus purus, 
+    vitae tincidunt neque purus et sapien. Integer feugiat ligula a turpis cursus, vel sollicitudin elit fringilla. 
+    Cras varius lorem vel tortor interdum, eget tempus elit posuere. Pellentesque habitant morbi tristique 
+    </p>
+  </div>
+<script>
+  //✍️ This code removes code of "Home" page div and replace order page codes , then when you click "order" it changes content 
+
+
+  const oldDiv = document.getElementById('dvv');
+  const newDiv = document.createElement('div');
+  newDiv.innerHTML = `
+
+  `;
+  function order() {
+oldDiv.remove();
+  document.body.appendChild(newDiv);
+  
+  }
+  </script>
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+    
 </body>
 
 </html>

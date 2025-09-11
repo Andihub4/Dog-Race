@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: url("Dog1.jpg") no-repeat center center;
+  background-size: contain;
+  background-color: black;
+  font-family: Arial, serif;
+  
+  font-family: Arial, sans-serif;
+  
+}
+
+  
+ .wineript{
+  width: 65px;
+  height: 23px;
+  border-color: aqua;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-width: 2px;
+  color: green;
+  background-color: black;
+  
+}
+.btnn{
+  
+
+  width: 70%;
+  margin-left: 50px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-width: 2px;
+  background-color: darkturquoise;
+  border-color: aqua;
+  font-family: serif;
+  
+} 
+
+
+    
